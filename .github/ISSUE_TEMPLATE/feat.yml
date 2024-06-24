@@ -66,12 +66,12 @@ body:
   - type: textarea
     attributes:
       label: 文件号
-      description: 上述格式文件的编号或期刊 ISSN 号
+      description: 上述格式文件的编号或期刊 ISSN 号，例如 `研生[2019]10号` 或 `0439-755X`
       value: |
-        - 参考文献格式的更新日期：[例如 2020-07-30]
-        - （学校）文件号：[例如“研生[2019]10号”]
-        - （期刊）ISSN 号：[例如 0439-755X]
-
+        - 参考文献格式的更新日期：
+        - （学校）文件号：
+        - （期刊）ISSN 号：
+  
   - type: textarea
     attributes:
       label: 相近样式
