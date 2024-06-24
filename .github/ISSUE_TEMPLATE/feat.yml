@@ -108,7 +108,10 @@ body:
         如果你没有把条目录入到上述群组，那可以把 CSL-JSON 数据贴在此处，或把文件拖拽到下面的输入框。
 
         将文献条目导出为 CSL-JSON 格式：在 Zotero 中，选中条目，右击，导出，CSL-JSON 格式。
-      render: json
+      value: |
+        ```json
+        {}
+        ```
     validations:
       required: false
 
